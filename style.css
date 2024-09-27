@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+:root{
+    --btn-bg-color:#ffff;
+    --btn-hover-bg-color:black;
+    --btn-btn-hover-bg-color:#ffffff;
+}
+
+/* ===================navbar====================== */
+.navbar img{
+    width:80%;
+}
+.navbar{  
+    background-color: transparent!important;
+    position: absolute!important;
+    z-index: 10;
+    width: 100%;
+
+}
+.navbar .border{
+    padding: 1px 5px;
+    background-color: #fff;
+    color: #000;
+    
+}
+/* ================================banner section======================= */
+.banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2019/12/home-new-bg-free-img.jpg);
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    background-position:center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 739px;
+
+}
+.banner h1{
+    font-size: 66px;
+    width: 60%;
+}
+.banner h2{
+    font-size: 26px;
+}
+.banner .btn{
+    background-color: var(--btn-bg-color)!important;
+    padding: 12px 28px;
+    font-size: 14px;
+}
+.banner .btn:hover{
+    background-color: var(--btn-hover-bg-color)!important;
+    color:white;
+}
+.banner .btn-btn{
+    padding: 12px 28px 14px 28px;   
+    font-size: 14px;    
+}
+.banner .btn-btn:hover{
+    background-color: var(--btn-btn-hover-bg-color)!important;
+    color: black!important;
+}
+/* ==========================carausel and cards================== */
+.col-4 img{
+    height: 480px;
+    width: 100%;
+    /* object-fit: cover; */
+    filter: brightness(0.5);
+}
+.col-4 .card-img-overlay{
+    padding-top: 80%;
+    padding-left: 10%;
+}
+.col-4 .btn{
+    background-color: var(--btn-bg-color)!important;
+    padding: 12px 28px;
+    font-size: 14px;
+}
+.col-4 .btn:hover{
+    background-color: var(--btn-hover-bg-color)!important;
+    color:white;
+}
+.col-4 h2{
+    font-size: 26px;
+}
+.col-4 p{
+    font-size: 16px;
+}
+/* =====================================products================================= */
+.products h2{
+    font-size: 42px;
+    font-family: "Lato", sans-serif;
+    position: relative;
+
+}
+.products .heading h2::after{
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 2px;
+    left: 50%;
+    bottom: -50%;
+    transform: translateX(-50%);
+    background-color: blue;
+}
+.products h3{
+    font-size: 16px;
+}
+.products p{
+    font-size: 14px;
+}
+.products .icon-container i{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    
+}
+.products a{
+    padding: 4px 12px 6px 12px;
+}
+.color-circle-1 {
+    width: 18px;
+    height: 18px; 
+    background-color: #1e73be; 
+    border-radius: 50%;
+}
+.color-circle-2 {
+    width: 18px;
+    height: 18px; 
+    background-color:#f49922; 
+    border-radius: 50%;
+}
+.color-circle-3 {
+    width: 18px;
+    height: 18px; 
+    background-color:#ce25e8; 
+    border-radius: 50%;
+}
+.color-circle-4 {
+    width: 18px;
+    height: 18px; 
+    background-color:#ce592f; 
+    border-radius: 50%;
+}
+.color-circle-5{
+    width: 18px;
+    height: 18px; 
+    background-color: #000000;
+    border-radius: 50%;
+}
+.color-circle-6{
+    width: 18px;
+    height: 18px; 
+    background-color: #dbc026;
+    border-radius: 50%;
+}
+.color-circle-7{
+    width: 18px;
+    height: 18px; 
+    background-color: #81d742;
+    border-radius: 50%;
+}
+/* ==================================offer section============================ */
+.offer{
+    background: linear-gradient(100deg, rgb(0, 132, 214) 0%, rgba(0, 0, 0, 0) 100%),url(https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2019/12/banner-03.jpg);
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    background-position:center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.offer h2{
+    font-size: 43px;
+}
+.offer h3{
+    font-size: 20px;
+}
+.offer p{
+    font-size: 16px;
+}
+.offer .btn{
+    background-color: var(--btn-bg-color)!important;
+    padding: 12px 28px;
+    font-size: 14px;
+    /* width: 25%; */
+}
+.offer .btn:hover{
+    background-color: var(--btn-hover-bg-color)!important;
+    color:white;
+}
+/* =============================about us====================== */
+.container{
+    padding: 80px 0px;
+    height: auto;
+}
+
+.about h2{
+    font-size:18px ;
+}
+.about p{
+    font-size: 16px;
+}
+.about .col-3 img{
+    width: 52px;
+    height: 52px;
+}
+
+/* ==============================sale========================== */
+.sale h2{
+    font-size: 26px;
+   
+}
+.sale a:hover{
+    transition: all 0.2s linear;
+
+}
+/* ===========================contact us================== */
+.contact-us .col-5 img{
+    width: 20%;
+}
+.contact-us .col-5 h3{
+    font-size: 22px;
+}
+.contact-us .col-3 .btn:hover{
+    background-color: rgba(9, 25, 255, 0.808)!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
